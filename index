@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>视频审核</title>
+  <style>
+    body {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 16px;
+      font-family: sans-serif;
+    }
+    section {
+      margin: 32px 0;
+    }
+    video {
+      width: 100%;
+      background: #000;
+    }
+  </style>
+</head>
+<body>
+  <h1>视频审核</h1>
+
+  <section>
+    <h2>视频一</h2>
+    <video controls playsinline preload="metadata">
+      <source src="video1.mp4" type="video/mp4">
+      浏览器不支持播放此视频。
+    </video>
+  </section>
+
+  <section>
+    <h2>视频二</h2>
+    <video controls playsinline preload="metadata">
+      <source src="video2.mp4" type="video/mp4">
+      浏览器不支持播放此视频。
+    </video>
+  </section>
+
+</body>
+</html>
